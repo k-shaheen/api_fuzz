@@ -23,6 +23,7 @@ valid endpoints by filtering out non‑useful responses such as HTTP 404.
 
 ```bash
 python3 api_fuzz.py
+```
 You will be prompted to enter:
 
 Target URL
@@ -31,10 +32,11 @@ Wordlist path
 
 Example:
 
-text
-Copy code
+```
 Enter the url to fuzz: https://example.com/api
 Enter the wordlist path: /usr/share/wordlists/dirb/small.txt
+```
+
 Output
 Displays only valid endpoints
 
@@ -51,9 +53,10 @@ requests library
 
 Install dependencies:
 
-bash
-Copy code
+```
 pip3 install requests
+```
+
 Disclaimer
 This tool is intended only for authorized testing and educational purposes.
 Do not use against systems you do not own or have explicit permission to test.
@@ -62,8 +65,8 @@ Author
 Developed by a cybersecurity learner as part of Python and API security practice.
 
 yaml
-Copy code
 
+```
 ---
 
 ## Why This Looks Professional
@@ -91,3 +94,4 @@ If you want, next we can:
 - Improve README for recruiters
 
 Just tell me.
+```
