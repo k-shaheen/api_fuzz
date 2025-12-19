@@ -30,43 +30,37 @@ Target URL
 
 Wordlist path
 
-Example:
+### Example:
 
 ```
 Enter the url to fuzz: https://example.com/api
 Enter the wordlist path: /usr/share/wordlists/dirb/small.txt
 ```
 
-Output
-Displays only valid endpoints
+### Output
+- Displays only valid endpoints
+- Shows HTTP status codes
+- Prints JSON responses when detected
+- Prints HTML/text responses with output limit
 
-Shows HTTP status codes
+## Requirements
+- Python 3.x
+- requests library
 
-Prints JSON responses when detected
-
-Prints HTML/text responses with output limit
-
-Requirements
-Python 3.x
-
-requests library
-
-Install dependencies:
+### Install dependencies:
 
 ```
 pip3 install requests
 ```
-
-Disclaimer
+---
+ 
+## Disclaimer
 This tool is intended only for authorized testing and educational purposes.
 Do not use against systems you do not own or have explicit permission to test.
+---
 
-Author
+## Author
 Developed by a cybersecurity learner as part of Python and API security practice.
-
-yaml
-
-```
 ---
 
 ## Why This Looks Professional
@@ -94,4 +88,3 @@ If you want, next we can:
 - Improve README for recruiters
 
 Just tell me.
-```
